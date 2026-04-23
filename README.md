@@ -3,7 +3,7 @@
 > A beautifully designed, fully offline-first personal & family expense tracker built with Expo + React Native.
 
 <p align="center">
-  <img src="assets/icon.png" width="120" alt="PFT App Icon" />
+  <img src="icon.png" width="120" alt="PFT App Icon" />
 </p>
 
 ---
