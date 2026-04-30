@@ -491,7 +491,7 @@
           <div class="hero-main">
             <div class="icon-container">
               <img
-                src="./icon.png"
+                src="./assets/icon.png"
                 alt="App Icon"
                 style="
                   width: 100%;
@@ -509,7 +509,8 @@
             <p class="subtitle">
               A complete personal finance tracker built for offline-first usage,
               with rich analytics, secure app lock, recurring expenses, budget
-              alerts, and optional cloud sync.
+              alerts, data export, multi-currency support, and optional cloud
+              sync.
             </p>
 
             <a
@@ -545,6 +546,9 @@
               <li>Set budgets and receive threshold-based spending alerts.</li>
               <li>Use recurring transactions for rent and subscriptions.</li>
               <li>Secure with PIN plus optional biometric unlock.</li>
+              <li>Export your data as CSV or PDF anytime.</li>
+              <li>Multi-currency support with 150+ currencies.</li>
+              <li>Android home screen widget for daily spend at a glance.</li>
               <li>Optional Supabase backup and sync across devices.</li>
             </ul>
           </aside>
@@ -789,22 +793,88 @@
               stroke-linejoin="round"
               stroke-width="2"
             >
-              <path d="M12 2v20"></path>
+              <circle cx="12" cy="12" r="10"></circle>
               <path
-                d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
               ></path>
+              <path d="M2 12h20"></path>
             </svg>
-            <h3>INR Native</h3>
+            <h3>Multi-Currency</h3>
             <p>
-              Built around Indian users with ₹ defaults and finance flows
-              tailored to local usage patterns.
+              Choose from 150+ currencies worldwide. Defaults to ₹ INR for
+              Indian users, fully switchable in settings.
+            </p>
+          </article>
+
+          <article class="feature-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            >
+              <path
+                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+              ></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <h3>Export CSV &amp; PDF</h3>
+            <p>
+              Export your transaction history as a CSV spreadsheet or a
+              formatted PDF report and share it instantly.
+            </p>
+          </article>
+
+          <article class="feature-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            >
+              <rect x="5" y="2" width="14" height="20" rx="2"></rect>
+              <line x1="9" y1="7" x2="15" y2="7"></line>
+              <line x1="9" y1="11" x2="15" y2="11"></line>
+              <line x1="9" y1="15" x2="13" y2="15"></line>
+            </svg>
+            <h3>Home Screen Widget</h3>
+            <p>
+              Android widget shows today's spend and monthly budget progress
+              right on your home screen without opening the app.
+            </p>
+          </article>
+
+          <article class="feature-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            >
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+            </svg>
+            <h3>Push Notifications</h3>
+            <p>
+              Receive timely push alerts when spending approaches or exceeds
+              your budget thresholds.
             </p>
           </article>
         </div>
 
         <p class="mini-note">
-          Built with Expo + React Native, optimized for smooth use on Android
-          and iOS.
+          Built with Expo + React Native · Android &amp; iOS · Offline-first ·
+          Multi-currency · CSV/PDF Export · Home Screen Widget
         </p>
 
         <p class="developer-info">
